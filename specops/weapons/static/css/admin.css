@@ -1,0 +1,23 @@
+#header, .module caption, div.breadcrumbs {
+    background: #3F4137;
+}
+
+:root{
+    --selected-row: #37362d;
+    --body-fg: #eeeeee;
+    --primary: #2b2a29;
+    --delete-button-bg: #261515;
+    --link-fg: #394218;
+    --secondary: #21252f;
+    --button-hover-bg: #312f29;
+    --link-hover-color: #a89e11;
+    --link-selected-fg: #6f6e23;
+}
+
+.module h2, .module caption, .inline-group h2, div.breadcrumbs  {
+    background: #37362d;
+}
+
+a:link, a:visited {
+    color: #738086;
+}
