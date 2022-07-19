@@ -24,7 +24,6 @@ class Weapon(models.Model):
     class Meta:
         verbose_name = 'Оружие'
         verbose_name_plural = 'Оружие'
-        #ordering = ['-time_create', 'title']
 
 class Category(models.Model):
     name = models.CharField(max_length=100, db_index=True, verbose_name='Категория')
